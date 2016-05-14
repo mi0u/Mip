@@ -12,7 +12,7 @@ _________________________________________
       pass
 
 
-    Mip.delegate(on_event)     # define on_event() as delegate function
+    Mip.delegate_function(on_event)     # define on_event() as delegate function
 
     Mip.connect()
 
