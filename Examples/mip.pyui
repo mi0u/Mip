@@ -1,0 +1,446 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "flex" : "",
+      "name" : "MiP control",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "custom_class" : "MyView",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "custom_attributes" : "{'index':0}",
+          "font_size" : 30,
+          "title" : "(",
+          "action" : "",
+          "flex" : "WHLRTB",
+          "font_bold" : true,
+          "name" : "button0",
+          "corner_radius" : 20,
+          "border_width" : 0,
+          "uuid" : "8A2E4FD1-87A8-41D8-8ACD-5FAA3614DF33",
+          "class" : "Button"
+        },
+        "frame" : "{{6, 81}, {54, 67.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "custom_attributes" : "{'index':1}",
+          "font_size" : 30,
+          "title" : ")",
+          "action" : "",
+          "flex" : "WHLRTB",
+          "font_bold" : true,
+          "name" : "button1",
+          "corner_radius" : 20,
+          "uuid" : "8A2E4FD1-87A8-41D8-8ACD-5FAA3614DF33",
+          "border_width" : 0,
+          "class" : "Button"
+        },
+        "frame" : "{{61.5, 81}, {54, 67.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "custom_attributes" : "{'index':2}",
+          "font_size" : 30,
+          "title" : "(",
+          "action" : "",
+          "flex" : "WHLRTB",
+          "font_bold" : true,
+          "name" : "button2",
+          "corner_radius" : 20,
+          "uuid" : "8A2E4FD1-87A8-41D8-8ACD-5FAA3614DF33",
+          "border_width" : 0,
+          "class" : "Button"
+        },
+        "frame" : "{{123.5, 81}, {54, 67.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "custom_attributes" : "{'index':3}",
+          "font_size" : 30,
+          "title" : ")",
+          "action" : "",
+          "flex" : "WHLRTB",
+          "font_bold" : true,
+          "name" : "button3",
+          "corner_radius" : 20,
+          "uuid" : "8A2E4FD1-87A8-41D8-8ACD-5FAA3614DF33",
+          "border_width" : 0,
+          "class" : "Button"
+        },
+        "frame" : "{{178.5, 81}, {54, 67.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "BF105B17-05A8-4355-88A9-E29B6CA5D6E9",
+          "flex" : "WHLRTB",
+          "name" : "red",
+          "corner_radius" : 20,
+          "border_width" : 1,
+          "continuous" : true,
+          "value" : 0,
+          "action" : "",
+          "frame" : "{{140, 143}, {200, 34}}",
+          "class" : "Slider",
+          "background_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)"
+        },
+        "frame" : "{{22.5, 156.5}, {190, 45.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "BF105B17-05A8-4355-88A9-E29B6CA5D6E9",
+          "flex" : "WHLRTB",
+          "name" : "green",
+          "corner_radius" : 20,
+          "value" : 0,
+          "border_width" : 1,
+          "action" : "",
+          "continuous" : true,
+          "frame" : "{{140, 143}, {200, 34}}",
+          "background_color" : "RGBA(0.333333,1.000000,0.000000,1.000000)",
+          "class" : "Slider"
+        },
+        "frame" : "{{22.5, 210}, {190, 45.5}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "BF105B17-05A8-4355-88A9-E29B6CA5D6E9",
+          "flex" : "WHLRTB",
+          "name" : "blue",
+          "corner_radius" : 20,
+          "value" : 0,
+          "border_width" : 1,
+          "action" : "",
+          "continuous" : true,
+          "frame" : "{{140, 143}, {200, 34}}",
+          "background_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "class" : "Slider"
+        },
+        "frame" : "{{22.5, 263.5}, {190, 46}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WHLRTB",
+          "name" : "chestled",
+          "corner_radius" : 40,
+          "border_width" : 1,
+          "class" : "View",
+          "frame" : "{{190, 110}, {100, 100}}",
+          "background_color" : "RGBA(0.301101,0.903302,0.000000,1.000000)",
+          "uuid" : "9335F82D-D537-4CAC-A7D5-E0C6595928FD"
+        },
+        "frame" : "{{54, 318}, {130, 135}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{150, 100}, {200, 200}}",
+          "data_source_number_of_lines" : 1,
+          "row_height" : 44,
+          "flex" : "WHLRTB",
+          "data_source_action" : "",
+          "data_source_accessory_action" : "",
+          "data_source_items" : "",
+          "data_source_delete_enabled" : false,
+          "name" : "soundtable",
+          "border_width" : 1,
+          "uuid" : "402994B7-FF8A-489A-9EE6-5F97F2E08BF2",
+          "data_source_font_size" : 18,
+          "corner_radius" : 10,
+          "class" : "TableView"
+        },
+        "frame" : "{{249, 59.5}, {285, 167}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Batterry:",
+          "font_name" : "<System-Bold>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "0EF7B08D-421A-459E-B533-ED1CF3B94583"
+        },
+        "frame" : "{{397, 6}, {85, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Total:",
+          "font_name" : "<System-Bold>",
+          "name" : "label2",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "A69251C7-99AA-4DEA-A539-C4C10EF70C56"
+        },
+        "frame" : "{{6, 6}, {54, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Odometer:",
+          "font_name" : "<System-Bold>",
+          "name" : "label3",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "25EA097D-1BB7-424F-99C6-EDB1FB006043"
+        },
+        "frame" : "{{167, 6}, {101, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.839623,0.839623,0.839623,1.000000)",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "font_size" : 15,
+          "title" : "Start",
+          "tint_color" : "RGBA(0.000000,0.333333,1.000000,1.000000)",
+          "action" : "",
+          "flex" : "WHLRTB",
+          "name" : "connect",
+          "corner_radius" : 10,
+          "uuid" : "FAA091A9-D427-4128-B303-93589E39CCB1",
+          "border_width" : 1,
+          "class" : "Button"
+        },
+        "frame" : "{{54, 472}, {130, 39}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "-",
+          "font_name" : "<System>",
+          "name" : "textTotal",
+          "corner_radius" : 10,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F09B54A3-0C14-4A23-96BB-FCA50167B979"
+        },
+        "frame" : "{{58, 6}, {101, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "-",
+          "font_name" : "<System>",
+          "name" : "textOdometer",
+          "corner_radius" : 10,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F09B54A3-0C14-4A23-96BB-FCA50167B979"
+        },
+        "frame" : "{{269, 6}, {101, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "-",
+          "font_name" : "<System>",
+          "name" : "textBattery",
+          "corner_radius" : 10,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F09B54A3-0C14-4A23-96BB-FCA50167B979"
+        },
+        "frame" : "{{482, 6}, {52, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "frame" : "{{200, 150}, {100, 100}}",
+          "flex" : "WHLRTB",
+          "name" : "touchpad",
+          "corner_radius" : 10,
+          "border_width" : 1,
+          "class" : "View",
+          "background_color" : "RGBA(0.797170,0.797170,0.797170,1.000000)",
+          "custom_class" : "TouchView",
+          "uuid" : "7A14E1F7-B211-4FDD-A8C9-E4D527BE3082"
+        },
+        "frame" : "{{249, 247.5}, {285, 272}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "centerview",
+          "uuid" : "D22B0791-A325-4A5B-BBE2-FE3B6F41E656",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/disc_256"
+        },
+        "frame" : "{{343, 330}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "leftview",
+          "uuid" : "259F510F-A496-4CB0-9EB0-10CFB2C84730",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/arrow_left_b_256"
+        },
+        "frame" : "{{249, 349.5}, {54, 62}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "upview",
+          "uuid" : "259F510F-A496-4CB0-9EB0-10CFB2C84730",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/arrow_up_b_256"
+        },
+        "frame" : "{{368, 247.5}, {54, 62}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "rightview",
+          "uuid" : "259F510F-A496-4CB0-9EB0-10CFB2C84730",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/arrow_right_b_256"
+        },
+        "frame" : "{{480, 349.5}, {54, 62}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "downview",
+          "uuid" : "259F510F-A496-4CB0-9EB0-10CFB2C84730",
+          "frame" : "{{220, 220}, {100, 100}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/arrow_down_b_256"
+        },
+        "frame" : "{{368, 457.5}, {54, 62}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
