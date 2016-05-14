@@ -2,22 +2,23 @@
 
 WowWeeMip Mip robot module for pythonista
 _________________________________________
-use:
+##use:
 
 from WowWeeMip import Mip
 
-def on_event(event,data):  # delegate function to handle the messages sent by Mip
+    def on_event(event,data):  # delegate function to handle the messages sent by Mip
 
-  pass
+    &nbsp;&nbsp;pass
 
-Mip.delegate(on_event)     # define on_event() as delegate function
 
-Mip.connect()
+    Mip.delegate(on_event)     # define on_event() as delegate function
 
-Mip.playSound([Mip.sound.beep,0])
+    Mip.connect()
+
+    Mip.playSound([Mip.sound.beep,0])
 
 _________________________________________
-Read functions:
+##Read functions:
 
 getValue(a)       # Get Mip.attribute
 
@@ -25,7 +26,7 @@ getUserValue(a)   # Get user value at address a 0-15
 
 
 
-Action functions:
+##Action functions:
 
 playSound( [s1,t1], [s2,t2],... )
 
