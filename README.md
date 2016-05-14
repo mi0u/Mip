@@ -4,11 +4,12 @@ WowWeeMip Mip robot module for pythonista
 _________________________________________
 ##use:
 
+
 from WowWeeMip import Mip
 
     def on_event(event,data):  # delegate function to handle the messages sent by Mip
 
-    &nbsp;&nbsp;pass
+      pass
 
 
     Mip.delegate(on_event)     # define on_event() as delegate function
